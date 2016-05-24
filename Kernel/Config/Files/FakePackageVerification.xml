@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="1.0" init="Config">
+    <ConfigItem Name="Cache::Module" Required="1" Valid="1" ConfigLevel="200">
+        <Description Translatable="1">Selects the cache backend to use.</Description>
+        <Group>Framework</Group>
+        <SubGroup>Core::Cache</SubGroup>
+        <Setting>
+            <Option Location="Kernel/System/Cache/*.pm" SelectedID="Kernel::System::Cache::FakeVerifyFileStorable">
+            </Option>
+        </Setting>
+    </ConfigItem>
+</otrs_config>

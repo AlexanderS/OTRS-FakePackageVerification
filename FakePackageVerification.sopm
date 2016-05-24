@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+  <Name>FakePackageVerification</Name>
+  <Version>1.0.0</Version>
+  <Framework>5.0.x</Framework>
+  <Vendor>spline.de</Vendor>
+  <URL>https://github.com/AlexanderS/OTRS-FakePackageVerification</URL>
+  <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+  <Description Lang="en">Hide the notification about unverified packages.</Description>
+  <Description Lang="de">Hinweis zu nicht unterstützen Paketen verstecken.</Description>
+  <BuildDate>?</BuildDate>
+  <BuildHost>?</BuildHost>
+  <Filelist>
+    <File Permission="644" Location="Kernel/Config/Files/FakePackageVerification.xml"/>
+    <File Permission="644" Location="Kernel/System/Cache/FakeVerifyFileStorable.pm"/>
+  </Filelist>
+</otrs_package>
